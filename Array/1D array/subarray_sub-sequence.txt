@@ -1,0 +1,14 @@
+// concept of subarrays and subsequencs
+//**************************************
+
+//                  subarrays------> subarray is nothing but the continous part of an array.
+
+//         eg. array --> 8 5 6 7 2 1 9 0
+//             ---> subarrays = 8 , 9 , 7 2 1 , 9 0 , 5 6 7 and can be of any type but there is only one condition that they should continous.
+
+//                  subsequence -----> there is only difference between subarray and subsequences that subsequences might not be continous but they should be ordered
+//                         ---> subsequence = 6 9 0 , 5 1 9 and many more .
+
+
+//                 no. of subarrays possible = n*(n+1)/2
+//                 no. of subsequence posible = 2^n         where is n is no. of values present in an array.
